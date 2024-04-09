@@ -1,4 +1,4 @@
-// User model (models/User.php)
+
 namespace app\models;
 
 use yii\db\ActiveRecord;
@@ -7,7 +7,7 @@ class User extends ActiveRecord
 {
     public static function tableName()
     {
-        return 'user'; // Assuming 'user' is the name of your database table for users
+        return 'user';
     }
 
     public function rules()
@@ -29,5 +29,5 @@ class User extends ActiveRecord
         ];
     }
 
-    // You can define other behaviors here, such as beforeSave, afterSave, etc.
+
 }
